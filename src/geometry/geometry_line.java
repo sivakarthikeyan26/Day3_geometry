@@ -26,9 +26,12 @@ public class geometry_line {
 		if (distance == distance2) {
 			System.out.println("The two lines are equal");
 		}
-		else {
-			System.out.println("The two lines are not equal");
+		else if (distance > distance2) {
+			System.out.println("The line1 is greater than line2");
 			}
+		else {
+			System.out.println("The line2 is greater than line 1");
+		}
 		}
 		
 
